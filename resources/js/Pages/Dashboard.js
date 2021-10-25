@@ -15,7 +15,7 @@ export default function Dashboard(props) {
             .leaving((user) => {
                 setLoggedIn(user.name);
             });
-        return <p>{loggedIn} Logged in</p>;
+        return <p>{loggedIn} Is Logged in</p>;
     };
     return (
         <Authenticated
